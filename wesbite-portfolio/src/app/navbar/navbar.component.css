@@ -18,7 +18,7 @@ body, ul {
 }
 
 .navbar-brand {
-    color: #fff;
+    color: #d8d0d0;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -50,7 +50,7 @@ body, ul {
 }
 
 .nav-link:hover {
-    color: #ff9800;
+    color: #9238d3;
     transform: scale(1.1);
 }
 
