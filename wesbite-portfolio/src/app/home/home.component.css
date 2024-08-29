@@ -1,0 +1,23 @@
+.textblock {
+    font-size: 30px;
+    width: 600px;
+    padding-left: 7%;
+    display: inline-block;
+}
+
+.header {
+    font-size: 40px;
+    font: bold;
+    display: grid;
+    justify-content: center;
+    color: rgb(153, 153, 218) !important;
+}
+
+.skillchips {
+    color: rgb(49, 109, 89);
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+}

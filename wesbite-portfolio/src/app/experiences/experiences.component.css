@@ -1,0 +1,46 @@
+.card {
+    max-width: 30%;
+    color: darkgray;
+    border-color: rgb(189, 156, 217);
+    border-radius: 15px;
+}
+  
+.header-image {
+    background-size: cover;
+}
+
+.lg {
+    background-image: url('https://i.pinimg.com/originals/10/64/a7/1064a730f1fd2cf58d6ff9110b9c83bc.png');
+}
+
+.solu {
+    background-image: url('https://www.solutechnology.com/wp-content/uploads/2021/06/Web-Footer-New-Bus.png');
+}
+
+.kit {
+    background-image: url('https://www.edarabia.com/wp-content/uploads/2018/05/kanazawa-institute-technology-nonoichi-japan.png');
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+.mat-mdc-card-avatar {
+    height: 50px;
+    width: 50px;
+}
+
+mat-card-title {
+    font-size: 27px;
+    font-weight: bold;
+    color: rgb(186, 87, 87);
+}
+
+.card-footer {
+    padding: 16px;
+    color: rgb(65, 156, 156);
+  }
+
