@@ -1,7 +1,7 @@
 .textblock {
-    font-size: 30px;
+    font-size: 25px;
     width: 600px;
-    padding-left: 7%;
+    padding-left: 3%;
     display: inline-block;
 }
 
@@ -14,8 +14,12 @@
 }
 
 .skillchips {
-    color: rgb(49, 109, 89);
+    color: rgb(197, 56, 56);
     padding: 10px;
+}
+
+.classchips {
+    color: rgb(49, 109, 89);
 }
 
 .container {

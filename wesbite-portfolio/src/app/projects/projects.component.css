@@ -1,0 +1,47 @@
+.card {
+    max-width: 30%;
+    color: darkgray;
+    border-color: rgb(189, 156, 217);
+    border-radius: 15px;
+    cursor: pointer;
+}
+  
+.header-image {
+    background-size: cover;
+}
+
+.rust {
+    background-image: url('https://rustacean.net/assets/rustacean-flat-happy.png');
+}
+
+.solu {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZFvZwmVwgK_GwlN9pzuS7w9VxjT3FMCgGpA&s');
+}
+
+.kit {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/1200px-Google_Chrome_icon_%28February_2022%29.svg.png');
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+.mat-mdc-card-avatar {
+    height: 50px;
+    width: 50px;
+}
+
+mat-card-title {
+    font-size: 27px;
+    font-weight: bold;
+    color: rgb(186, 87, 87);
+}
+
+.card-footer {
+    padding: 16px;
+    color: rgb(65, 156, 156);
+  }
+
