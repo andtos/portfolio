@@ -10,6 +10,10 @@
     background-size: cover;
 }
 
+.book {
+    background-image: url('https://pbs.twimg.com/profile_images/876638840827527169/uKBvZmyX_400x400.jpg');
+}
+
 .rust {
     background-image: url('https://rustacean.net/assets/rustacean-flat-happy.png');
 }

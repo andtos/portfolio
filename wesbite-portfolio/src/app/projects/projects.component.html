@@ -1,4 +1,25 @@
 <div class="container content">
+  <mat-card class="card" appearance="outlined" (click)="redirect('book-reviewer')" >
+    <mat-card-header>
+      <div mat-card-avatar class="header-image book">
+      </div>
+      <mat-card-title>Book Reviewer</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        An application that uses sentiment analysis to determine the rating of books on bookmeter
+      </p>
+    </mat-card-content>
+    <mat-card-footer class="card-footer">
+        <mat-chip-set>
+            <mat-chip disabled>Python</mat-chip>
+            <mat-chip disabled>Natural Language Processing</mat-chip>
+            <mat-chip disabled>BERT</mat-chip>
+            <mat-chip disabled>PyTorch</mat-chip>
+            <mat-chip disabled>Selenium</mat-chip>
+          </mat-chip-set>
+      </mat-card-footer>
+  </mat-card>
     <mat-card class="card" appearance="outlined" (click)="redirect('Password-Manager')" >
         <mat-card-header>
           <div mat-card-avatar class="header-image rust">
@@ -39,6 +60,9 @@
               </mat-chip-set>
           </mat-card-footer>
       </mat-card>
+      </div>
+      <div class="container content">
+
       <mat-card class="card" appearance="outlined" (click)="redirect('focus-extension')">
         <mat-card-header>
           <div mat-card-avatar class="header-image kit">
